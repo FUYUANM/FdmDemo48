@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.fdm48.fdmdemo48">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/fdm"
+        android:label="付大明48"
+        android:roundIcon="@mipmap/fdm"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".lect08ListView.SeniorViewActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".lect07intent.FlagActivity" />
+        <activity android:name=".lect07intent.CActivity">
+<!--            <intent-filter>-->
+<!--                <action android:name="android.intent.action.DIAL" />-->
+
+<!--                <category android:name="android.intent.category.DEFAULT" />-->
+
+<!--                <data android:scheme="tel" />-->
+<!--            </intent-filter>-->
+        </activity>
+        <activity android:name=".lect07intent.MyWebActivity">
+<!--            <intent-filter>-->
+<!--                <action android:name="android.intent.action.VIEW" />-->
+
+<!--                <category android:name="android.intent.category.DEFAULT" />-->
+<!--                <category android:name="android.intent.category.BROWSABLE" />-->
+
+<!--                <data android:scheme="http" />-->
+<!--            </intent-filter>-->
+        </activity>
+        <activity android:name=".lect07intent.IntentActivity">
+<!--            <intent-filter>-->
+<!--                <action android:name="android.intent.action.MAIN" />-->
+
+<!--                <category android:name="android.intent.category.LAUNCHER" />-->
+<!--            </intent-filter>-->
+        </activity>
+    </application>
+
+</manifest>

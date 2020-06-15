@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".lect07intent.IntentActivity">
+<Button
+    android:id="@+id/btn_dial"
+    android:text="拨号"
+    android:textColor="#0B1907"
+    android:textStyle="bold"
+    android:background="#56FAF4"
+    android:textSize="20dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/btn_web"
+        android:text="网页"
+        android:textColor="#0B1907"
+        android:textStyle="bold"
+        android:background="#5AF4"
+        android:textSize="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/btn_flag"
+        android:text="跳转flag"
+        android:textColor="#0B1907"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:background="#58FA82"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</LinearLayout>
