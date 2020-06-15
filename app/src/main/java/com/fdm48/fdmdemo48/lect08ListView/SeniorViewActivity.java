@@ -60,7 +60,7 @@ public class SeniorViewActivity extends AppCompatActivity {
         for (int i = 0; i<20; i++){
             News item = new News();
             item.setPicId(R.mipmap.fdm);
-            item.setTitle(i +" 同学居然在课堂上做这种事情");
+            item.setTitle(i +" 同学居然在课堂做这种事情");
             dataList.add(item);
         }
 
